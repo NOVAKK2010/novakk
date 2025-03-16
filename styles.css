@@ -1,0 +1,70 @@
+body {
+    background: gainsboro;
+    color: rgb(50, 47, 47);
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 15px;
+    
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgba(41, 113, 190, 0.966);
+}
+a:visited {
+    color: rgb(162, 96, 34);
+}
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 20px 17px 14px rgba(0, 0, 0, 0.25);
+}
+.info {
+    display: flex;
+}
+.info-text {
+    margin-left: 30px;
+}
+.info p {
+    color:black;
+    
+}
+.social {
+    background: rgba(75, 163, 75, 0.23);
+    border-radius: 14px;
+    padding: 2px;
+    border: 5px solid gainsboro;
+}
+
+.hobby {
+    background: rgba(255, 255, 0, 0.21);
+    border-radius: 14px;
+    padding: 2px;
+    border: 5px solid gainsboro;
+}
+.fields {
+    background: rgba(34, 55, 69, 0.332);
+    border-radius: 14px;
+    padding: 2px;
+    border: 5px solid gainsboro;
+}
+
+
+.contact {
+    background: rgba(255, 0, 0, 0.112);
+    border-radius: 14px;
+    padding: 2px;
+    border: 5px solid gainsboro;
+}
+.contact2 input, 
+.contact2 textarea{
+    width: 98%;
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+}
